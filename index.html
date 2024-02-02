@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Finger Paint' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container pt-3 ">
+
+        <div class="col-12">
+                <div class="wrapper">
+                 <form method="post">
+                    <header>Send Us Massage</header>
+                    <div class="form-group">
+                        <label for="name">Enter your name</label>
+                        <input type="text" class="form-control " id="name" name="name" placeholder="Enter your name" >
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Enter your phone</label>
+                        <input type="text" class="form-control " id="phone" name="phone" placeholder="Enter your phone" >
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Enter your email</label>
+                        <input type="text" class="form-control " id="email" name="email" placeholder="Enter your email" >
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="form-group">
+                        <label for="website">Enter your website</label>
+                        <input type="text" class="form-control " id="website" name="website" placeholder="Enter your website" >
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Write your message</label>
+                        <textarea class="form-control" id="message" name="message" placeholder="Write your message" ></textarea>
+                    </div>
+                    <div class="button-area">
+                    <button type="submit" class="btn btn-primary mb-4 ">Send Message</button>
+                    <span class=" ml-2 mb-4" id="sending-message">Sending your message...</span>
+                    </div>
+                  </form>
+                </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
